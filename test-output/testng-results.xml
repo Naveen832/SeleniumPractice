@@ -1,29 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-17T17:05:25 IST" name="Default suite" finished-at="2023-09-17T17:05:41 IST" duration-ms="15796">
+  <suite started-at="2024-01-25T14:58:52 IST" name="Suite" finished-at="2024-01-25T14:58:52 IST" duration-ms="156">
     <groups>
     </groups>
-    <test started-at="2023-09-17T17:05:25 IST" name="Default test" finished-at="2023-09-17T17:05:41 IST" duration-ms="15796">
-      <class name="PageObjectModel.PageObjectTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:PageObjectModel.PageObjectTest@294425a7]" started-at="2023-09-17T17:05:25 IST" name="setup" finished-at="2023-09-17T17:05:35 IST" duration-ms="10431" status="PASS">
+    <test started-at="2024-01-25T14:58:52 IST" name="Test1" finished-at="2024-01-25T14:58:52 IST" duration-ms="72">
+      <class name="testNg3.Class2">
+        <test-method signature="xyz()[pri:0, instance:testNg3.Class2@3eb738bb]" started-at="2024-01-25T14:58:52 IST" name="xyz" finished-at="2024-01-25T14:58:52 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testLogo()[pri:1, instance:PageObjectModel.PageObjectTest@294425a7]" started-at="2023-09-17T17:05:35 IST" name="testLogo" finished-at="2023-09-17T17:05:38 IST" duration-ms="3128" status="PASS">
+        </test-method> <!-- xyz -->
+        <test-method is-config="true" signature="n()[pri:0, instance:testNg3.Class2@3eb738bb]" started-at="2024-01-25T14:58:52 IST" name="n" finished-at="2024-01-25T14:58:52 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogo -->
-        <test-method signature="login()[pri:2, instance:PageObjectModel.PageObjectTest@294425a7]" started-at="2023-09-17T17:05:38 IST" name="login" finished-at="2023-09-17T17:05:40 IST" duration-ms="1765" status="PASS">
+        </test-method> <!-- n -->
+      </class> <!-- testNg3.Class2 -->
+      <class name="testNg3.Class1">
+        <test-method is-config="true" signature="m()[pri:0, instance:testNg3.Class1@229f66ed]" started-at="2024-01-25T14:58:52 IST" name="m" finished-at="2024-01-25T14:58:52 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:PageObjectModel.PageObjectTest@294425a7]" started-at="2023-09-17T17:05:40 IST" name="tearDown" finished-at="2023-09-17T17:05:41 IST" duration-ms="393" status="PASS">
+        </test-method> <!-- m -->
+        <test-method signature="abc()[pri:0, instance:testNg3.Class1@229f66ed]" started-at="2024-01-25T14:58:52 IST" name="abc" finished-at="2024-01-25T14:58:52 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- PageObjectModel.PageObjectTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- abc -->
+      </class> <!-- testNg3.Class1 -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-01-25T14:58:52 IST" name="Test2" finished-at="2024-01-25T14:58:52 IST" duration-ms="8">
+      <class name="testNg3.Class2">
+        <test-method signature="xyz()[pri:0, instance:testNg3.Class2@7d20d0b]" started-at="2024-01-25T14:58:52 IST" name="xyz" finished-at="2024-01-25T14:58:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz -->
+        <test-method is-config="true" signature="n()[pri:0, instance:testNg3.Class2@7d20d0b]" started-at="2024-01-25T14:58:52 IST" name="n" finished-at="2024-01-25T14:58:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- n -->
+      </class> <!-- testNg3.Class2 -->
+      <class name="testNg3.Class1">
+        <test-method is-config="true" signature="bs()[pri:0, instance:testNg3.Class1@24313fcc]" started-at="2024-01-25T14:58:52 IST" name="bs" finished-at="2024-01-25T14:58:52 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bs -->
+        <test-method is-config="true" signature="m()[pri:0, instance:testNg3.Class1@24313fcc]" started-at="2024-01-25T14:58:52 IST" name="m" finished-at="2024-01-25T14:58:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m -->
+        <test-method signature="abc()[pri:0, instance:testNg3.Class1@24313fcc]" started-at="2024-01-25T14:58:52 IST" name="abc" finished-at="2024-01-25T14:58:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+        <test-method is-config="true" signature="as()[pri:0, instance:testNg3.Class1@24313fcc]" started-at="2024-01-25T14:58:52 IST" name="as" finished-at="2024-01-25T14:58:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- as -->
+      </class> <!-- testNg3.Class1 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -21,7 +21,7 @@ public class StaticTableDemo {
 	driver.manage().window().maximize();
 	//find the total number of rows
 	int row = driver.findElement(By.xpath("//table[@name='BookTable']//tr")).Size();
-	System.out.println("number of rows: "+rows);
+	System.out.println("number of rows: "+row);
 
 }
 }
